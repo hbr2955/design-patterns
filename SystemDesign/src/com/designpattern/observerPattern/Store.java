@@ -11,6 +11,8 @@ public class Store {
         System.out.println("Lets see how it works");
         System.out.println("Created new branch");
         System.out.println("FOR PR");
+
+        System.out.println("STASH");
         StockObservable iphoneStockObservable = new IphoneObservableImpl();
 
         NotificationAlertObserver observer1 = new EmailAlertObserverImpl("hbr@gmail.com",iphoneStockObservable);
