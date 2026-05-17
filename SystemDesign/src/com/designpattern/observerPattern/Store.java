@@ -9,6 +9,7 @@ import com.designpattern.observerPattern.Observer.NotificationAlertObserver;
 public class Store {
     public static void main(String[] args) {
         System.out.println("Lets see how it works");
+        System.out.println("Created new branch");
         StockObservable iphoneStockObservable = new IphoneObservableImpl();
 
         NotificationAlertObserver observer1 = new EmailAlertObserverImpl("hbr@gmail.com",iphoneStockObservable);
